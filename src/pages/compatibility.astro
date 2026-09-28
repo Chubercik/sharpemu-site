@@ -45,7 +45,7 @@ const tested = compat
         role="tab"
         aria-selected="true"
         aria-controls="panel-tested"
-        class="rounded-full px-5 py-2 transition-colors aria-selected:bg-contrast aria-selected:text-contrast-fg"
+        class="cursor-pointer rounded-full px-5 py-2 transition-colors aria-selected:bg-contrast aria-selected:text-contrast-fg"
         >Tested ({stats.tested})</button
       >
       <button
@@ -53,7 +53,7 @@ const tested = compat
         role="tab"
         aria-selected="false"
         aria-controls="panel-all"
-        class="rounded-full px-5 py-2 text-muted transition-colors aria-selected:bg-contrast aria-selected:text-contrast-fg"
+        class="cursor-pointer rounded-full px-5 py-2 text-muted transition-colors aria-selected:bg-contrast aria-selected:text-contrast-fg"
         >All games ({games.length.toLocaleString('en-US')})</button
       >
     </div>
